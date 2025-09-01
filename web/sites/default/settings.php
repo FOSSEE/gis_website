@@ -860,3 +860,4 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_VBsFxBKL1sbbgrG9P99MwPiQ-Lkwn7qGiT3-0LMQ6CWO8QMZcfG-2seQUgdDzq9Hltw7Y8B7Rw/sync';
+$config['system.performance']['js']['preprocess'] = FALSE;
