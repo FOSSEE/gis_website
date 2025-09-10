@@ -685,6 +685,8 @@ $settings['update_free_access'] = FALSE;
  */
 # $config['system.site']['name'] = 'My Drupal site';
 # $config['user.settings']['anonymous'] = 'Visitor';
+$config['system.performance']['js']['preprocess'] = FALSE;
+$config['system.performance']['css']['preprocess'] = FALSE;
 
 /**
  * Load services definition file.
@@ -848,7 +850,7 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
 $databases['default']['default'] = array (
- 'database' => getenv('ENV_DB'),
+  'database' => getenv('ENV_DB'),
   'username' => getenv('ENV_USR'),
   'password' => getenv('ENV_PSWD'),
   'prefix' => '',
@@ -860,4 +862,4 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_VBsFxBKL1sbbgrG9P99MwPiQ-Lkwn7qGiT3-0LMQ6CWO8QMZcfG-2seQUgdDzq9Hltw7Y8B7Rw/sync';
-$config['system.performance']['js']['preprocess'] = FALSE;
+
