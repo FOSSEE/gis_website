@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "728d693b23c7958dbfc29db57ee47f2b",
+    "content-hash": "c7e5c25e99765d1d62955cef3a11d9c0",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1569,6 +1569,62 @@
             "homepage": "https://www.drupal.org/project/nava",
             "support": {
                 "source": "https://git.drupalcode.org/project/nava"
+            }
+        },
+        {
+            "name": "drupal/pathologic",
+            "version": "2.0.0-alpha3",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/pathologic.git",
+                "reference": "2.0.0-alpha3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/pathologic-2.0.0-alpha3.zip",
+                "reference": "2.0.0-alpha3",
+                "shasum": "f59c465b7070c3e6d12a204a55ee1117b991ae93"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10 || ^11"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "2.0.0-alpha3",
+                    "datestamp": "1733441073",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Alpha releases are not covered by Drupal security advisories."
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "dww",
+                    "homepage": "https://www.drupal.org/user/46549"
+                },
+                {
+                    "name": "Garrett Albright",
+                    "homepage": "https://www.drupal.org/user/191212"
+                },
+                {
+                    "name": "mark_fullmer",
+                    "homepage": "https://www.drupal.org/user/2612816"
+                }
+            ],
+            "description": "Helps avoid broken links and incorrect paths in content.",
+            "homepage": "https://www.drupal.org/project/pathologic",
+            "support": {
+                "source": "https://git.drupalcode.org/project/pathologic"
             }
         },
         {
@@ -6351,7 +6407,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/pathologic": 15
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
