@@ -21,7 +21,6 @@
         "drupal/core-project-message": "^11.2",
         "drupal/core-recipe-unpack": "^11.2",
         "drupal/core-recommended": "^11.2",
-        "drupal/pathologic": "^2.0@alpha",
         "drush/drush": "^13.6"
     },
     "conflict": {
