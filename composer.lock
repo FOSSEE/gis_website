@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "73ac0561fa02f1526f6aa2b55041ae38",
+    "content-hash": "a4e3d991e22cf0de427d776953db7adc",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1086,6 +1086,67 @@
             "time": "2024-02-05T11:35:39+00:00"
         },
         {
+            "name": "drupal/blog",
+            "version": "3.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/blog.git",
+                "reference": "3.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/blog-3.1.4.zip",
+                "reference": "3.1.4",
+                "shasum": "c7ace5b85d620dd41185eee547719026d1dcc8b2"
+            },
+            "require": {
+                "drupal/core": "^10.4 || ^11.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "3.1.4",
+                    "datestamp": "1735994188",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Kurucz István",
+                    "homepage": "https://www.drupal.org/u/nevergone"
+                },
+                {
+                    "name": "David Norman",
+                    "homepage": "https://www.drupal.org/u/deekayen"
+                },
+                {
+                    "name": "Christopher Hall",
+                    "homepage": "https://www.drupal.org/u/chris_hall_hu_cheng"
+                },
+                {
+                    "name": "Dave Reid",
+                    "homepage": "https://www.drupal.org/u/dave-reid"
+                },
+                {
+                    "name": "sylus",
+                    "homepage": "https://www.drupal.org/user/339714"
+                }
+            ],
+            "description": "Enables multi-user blogs.",
+            "homepage": "https://www.drupal.org/project/blog",
+            "support": {
+                "source": "https://git.drupalcode.org/project/blog",
+                "issues": "https://www.drupal.org/project/issues/blog"
+            }
+        },
+        {
             "name": "drupal/bootstrap5",
             "version": "4.0.6",
             "source": {
@@ -1527,6 +1588,78 @@
                 "source": "https://github.com/drupal/core-recommended/tree/11.2.8"
             },
             "time": "2025-11-12T21:53:29+00:00"
+        },
+        {
+            "name": "drupal/token",
+            "version": "1.16.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/token.git",
+                "reference": "8.x-1.16"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/token-8.x-1.16.zip",
+                "reference": "8.x-1.16",
+                "shasum": "f7ae77316ef8135068d995c09507da7517b20572"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11"
+            },
+            "require-dev": {
+                "drupal/book": "*"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.16",
+                    "datestamp": "1757151197",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                },
+                "drush": {
+                    "services": {
+                        "drush.services.yml": ">=9"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "berdir",
+                    "homepage": "https://www.drupal.org/user/214652"
+                },
+                {
+                    "name": "dave reid",
+                    "homepage": "https://www.drupal.org/user/53892"
+                },
+                {
+                    "name": "eaton",
+                    "homepage": "https://www.drupal.org/user/16496"
+                },
+                {
+                    "name": "fago",
+                    "homepage": "https://www.drupal.org/user/16747"
+                },
+                {
+                    "name": "greggles",
+                    "homepage": "https://www.drupal.org/user/36762"
+                },
+                {
+                    "name": "mikeryan",
+                    "homepage": "https://www.drupal.org/user/4420"
+                }
+            ],
+            "description": "Provides a user interface for the Token API, some missing core tokens.",
+            "homepage": "https://www.drupal.org/project/token",
+            "support": {
+                "source": "https://git.drupalcode.org/project/token"
+            }
         },
         {
             "name": "drush/drush",
